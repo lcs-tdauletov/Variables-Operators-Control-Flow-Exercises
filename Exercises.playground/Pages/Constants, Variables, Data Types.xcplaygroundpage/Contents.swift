@@ -36,6 +36,14 @@
  */
 // Answer Question 1 below
 
+
+
+
+let firstName  = "Timur"
+let lastName  = "Dauletov"
+var currentGrade = 12
+let currentNovemberReportCardGradeForConscience  = 2
+
 /*:
  ### Question 2
  
@@ -47,7 +55,9 @@
  
  */
 // Answer Question 2 below
-
+let myAge = 18
+let otherAge = 40.0
+let averageAGe = (Double(myAge) + otherAge) / 2
 
 /*:
  ### Question 3
@@ -55,7 +65,7 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this variable.
  */
 // Answer Question 3 below
-
+var favoriteHobby = "Chess"
 
 /*:
  ### Question 4
@@ -66,7 +76,7 @@
  */
 // Answer Question 4 below
 
-
+print("The constants take less memory to store than variables, not mentioning the fact that if by accident, you want to edit the value of a constant, the notification will remind you you cannot do it.")
 /*:
  ### Question 5
  
@@ -76,7 +86,7 @@
  
  */
 // Answer Question 5 below
-
+let randomDemand = 1_000_000
 /*:
  ### Question 6
  
@@ -96,6 +106,10 @@
  
  */
 // Answer Question 6 below
+var years = 2017
+let textForQuestion6 = "Russell Gordon looks radiant today"
+//years = "Russell Gordon looks radiant today" // The redeclaration of the variable requires cannot be in a different type compared to the one declared in the first place.
+print("The error is both logical and syntax, because it is dictated by the conscience of a programmer to not combine the different type in one line, while syntax of Swift implies that on one line, there can only be data of one type.")
 
 
 /*:
@@ -106,7 +120,7 @@
  Use multiple `print` statements below to explain.
  */
 // Answer Question 7 below
-
+print("A type-safe language implies that the compiler will sort out the types in the process and notify you about errors in case the variabls are assigned a wrong type.")
 
 
 
