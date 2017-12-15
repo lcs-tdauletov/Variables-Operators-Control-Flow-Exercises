@@ -45,6 +45,9 @@
 // Answer Question 1 below
 
 
+var partTimeJobEarnings = 0
+
+
 /*:
 ### Question 2
 
