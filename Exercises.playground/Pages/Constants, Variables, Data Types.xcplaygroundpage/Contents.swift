@@ -108,7 +108,7 @@ let randomDemand = 1_000_000
 // Answer Question 6 below
 var years = 2017
 let textForQuestion6 = "Russell Gordon looks radiant today"
-//years = "Russell Gordon looks radiant today" // The redeclaration of the variable requires cannot be in a different type compared to the one declared in the first place.
+//years = "Russell Gordon looks radiant today" // The redeclaration of the variable cannot conclude a different data type, inconsisten with the one declared in the first place
 print("The error is both logical and syntax, because it is dictated by the conscience of a programmer to not combine the different type in one line, while syntax of Swift implies that on one line, there can only be data of one type.")
 
 
