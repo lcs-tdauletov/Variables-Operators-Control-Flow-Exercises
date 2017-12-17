@@ -44,12 +44,17 @@
  */
 // Answer Question 1 below
 
-
+//The following line set an initial value for the variable.
 var partTimeJobEarnings : Double = 0
+//This line contains the most rational way to execute the task given.
 partTimeJobEarnings = 22.50 * 0.5
+//This line contains the most rational way to execute the task given. It uses compound assignment to give a non-zero value to the variable.
 partTimeJobEarnings += 20
+//This line contains the most rational way to execute the task given. The variable is updated using the compound assignment.
 partTimeJobEarnings /= 2
+//This line contains the most rational way to execute the task given.
 partTimeJobEarnings += 25 * 4
+//This line contains the most rational way to execute the task given. It uses compound assignment to subtract 50 dollars from the earnings.
 partTimeJobEarnings -= 50
 /*:
 ### Question 2
