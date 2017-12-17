@@ -44,17 +44,17 @@
  */
 // Answer Question 1 below
 
-//The following line set an initial value for the variable.
+//The following line sets an initial value for the variable.
 var partTimeJobEarnings : Double = 0
-//This line contains the most rational way to execute the task given.
+//This following line contains the most rational way to execute the task given, when you are payed for half hour, while one hour of your work is worth $22.50
 partTimeJobEarnings = 22.50 * 0.5
-//This line contains the most rational way to execute the task given. It uses compound assignment to give a non-zero value to the variable.
+//This following line contains the most rational way to execute the task given. It uses compound assignment to add $20 to your income when you spend your time babysitting.
 partTimeJobEarnings += 20
-//This line contains the most rational way to execute the task given. The variable is updated using the compound assignment.
+//This following line contains the most rational way to execute the task given. The variable is updated using the compound assignment, when you spend half of your money in Foodland.
 partTimeJobEarnings /= 2
-//This line contains the most rational way to execute the task given.
+//This following line contains the most rational way to execute the task given, when you do prime-time babysitting for four hours.
 partTimeJobEarnings += 25 * 4
-//This line contains the most rational way to execute the task given. It uses compound assignment to subtract 50 dollars from the earnings.
+//This follwoing line contains the most rational way to execute the task given. It uses compound assignment to subtract 50 dollars for the nice meal from the earnings.
 partTimeJobEarnings -= 50
 /*:
 ### Question 2
@@ -66,7 +66,7 @@ partTimeJobEarnings -= 50
 */
 // Answer Question 2 below
 6 + 4 * (5 - 2)
-
+// The order of operations was changed when the brackets were added.
 
 
 //: [Next](@next)
