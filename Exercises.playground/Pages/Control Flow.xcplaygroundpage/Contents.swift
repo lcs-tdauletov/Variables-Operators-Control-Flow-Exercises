@@ -100,10 +100,13 @@ let alwaysGetsAttentionBySayingGentsAndLadies = true
 let teachesOutdoorEd = true
 
 // Answer Question 4 below
+//The following code will try to deduce a concrete name of a teacher by checking multiple conditions
 if hasRedHair == true && alwaysGetsAttentionBySayingGentsAndLadies == true && teachesOutdoorEd == false {
     print("Must be Gordon!")
 } else {
     print("Hmm, need more data to be sure")
+    
+    // Mr. Gordon doesn't teach O.E., so the code prints a statement, mentioned in "else". 
 }
 
 /*:
