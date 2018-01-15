@@ -128,7 +128,7 @@ let isComedy = false
 let starsTheRock = true
 
 // Answer Question 5 below
-if isAction == true || isComedy == true && starsTheRock == true {
+if isAction && starsTheRock || isComedy && starsTheRock {
     print("Let's watch!")
 } else {
     print("Sorry, guess we'll have to play Tic-Tac-Toe instead.")
